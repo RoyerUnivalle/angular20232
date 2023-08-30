@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'myapp20232';
+  StudentName = '';
+
+  public changeStudentName(){
+    this.StudentName = this.StudentName.toLowerCase();
+  }
 }
